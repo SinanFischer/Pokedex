@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; 
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-picture-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pokemon-logo {
+    width: 190px;
+}
+
+.looking-eyes {
+    width: 190px !important; 
+    object-fit: cover !important;
+    height: 37px !important;
+}
+
+.pokemon-card {
+    background-color: rgb(216, 99, 99);
+    width: 35vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-top-section {
+    display: flex;
+}
+
+.pokemon-card img {
+    width: 10vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+.pokemon-description {
+    color: rgb(253, 228, 228);
+}
+
+.stats-name {
+    color: rgb(253, 228, 228);
+}
+
+.progress {
+    width: 300px;
+}
+
+.bg-specialattack {
+    --bs-bg-opacity: 1;
+    background-color: #9c2020;
+}
+
+.bg-specialdefense {
+    --bs-bg-opacity: 1;
+    background-color: #0744c7;
+}
